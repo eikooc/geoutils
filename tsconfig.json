@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",
+    "moduleResolution": "node",
+    "module": "umd",
+    "lib": ["dom", "es2015", "es2016", "es2017"],
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "sourceMap": true /* Generates corresponding '.map' file. */,
+    "outDir": "./dist/lib",
+    "rootDir": "./src",
+    "declarationDir": "dist/types",
+    "removeComments": true,
+    "importHelpers": true,
+    "pretty": true,
+    // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    /* Strict Type-Checking Options */
+    "strict": true /* Enable all strict type-checking options. */
+    // "alwaysStrict": true,                  /* Parse in strict mode and emit "use strict" for each source file. */
+  }
+}
